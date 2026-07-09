@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generations of Embodied Knowledge</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="dist/d3.v4.min.js"></script>
+<!--  <script src="https://d3js.org/d3.v4.min.js"></script>-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js"></script>-->
+  <link rel="stylesheet" href="search.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="demotimer.css" />
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+</head>
+<body>
+  <div id="intro"></div>
+  <div id="main-content">
+    <div id="play-pause-container" class="intro">
+      <div id="play-pause-icon"></div>
+      <svg id="timer-svg" viewBox="0 0 100 100">
+<!--        <circle class="bg"></circle>-->
+<!--        <circle class="fg"></circle>-->
+        <circle class="bg" cx="50" cy="50" r="45"></circle>
+        <circle class="fg" cx="50" cy="50" r="45"></circle>
+      </svg>
+    </div>
+    <div id="interface" class="intro">
+      <div id="interface-content">
+        <div id="description">
+          <div id="desc-shape" class="bckgrnd">
+            <div id="shape" class="bckgrnd"></div>
+            <div id="desc-text">
+            This interactive visualization allows users to explore data from “Generations of Embodied Knowledge: The Alvin Ailey American Dance Theater’s Dance Artists, 1958–2023,” which is part of the <a href="https://www.movingdatastudio.com/#current" target="_blank"><i>Radical Accounting</i></a> series commissioned for the Edges of Ailey exhibition at the Whitney Museum of American Art (2024-25). We come to see the company as constituted by its many performers and artistic leaders, who retain and transmit the core body of knowledge across generations.
+            </div>
+          </div>
+        </div>
+        <div id="legend" class="draggable">
+          <div id="legend-row-1" class="legend-row">
+            <div id="legend-color-1" class="legend-color"></div>
+            <div id="legend-text-1" class="legend-text">dancers</div>
+          </div>
+          <div id="legend-row-2" class="legend-row">
+            <div id="legend-color-2" class="legend-color"></div>
+            <div id="legend-text-2" class="legend-text">rehearsal directors</div>
+          </div>
+          <div id="legend-row-3" class="legend-row">
+            <div id="legend-color-3" class="legend-color"></div>
+            <div id="legend-text-3" class="legend-text">artistic directors</div>
+          </div>
+        </div>
+        <div id="img-content">
+          <div id="sg-imgs">
+            <img id="sg-0-on" class="sg-img viz" src="img/streams/sg_0_on_trans.png"></img>
+            <img id="sg-0-off" class="sg-img viz" src="img/streams/sg_0_off_trans.png"></img>
+          </div>
+          <div><object id="sg-svg" class="viz" data="svg/sg2.svg"></object></div>
+          <div id="years"></div>
+        </div>
+      </div>
+      <div id="tooltip">Judith Jamison</div>
+      <div id="menu-icon"></div>
+      <div id="side-panel" class="">
+        <div id="video">
+          <iframe id="yt-video" width="240" height="135" src="https://www.youtube.com/embed/7TDYHxbNk3s?autoplay=1&loop=1&playlist=7TDYHxbNk3s&controls=0&showinfo=0" title="YouTube video player" frameborder="0" fs="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <a id="video-link" title="Watch on Whitney's website" href="https://whitney.org/media/61535" target="_blank"></a>
+        </div>
+        <div id="searchBar">
+          <div id="searchInputAndCloseButton">
+            <input id="searchInput" type="text" name="search" placeholder="Search by name..." autocomplete="off">
+            <a id="searchCloseButton" href=""></a>
+          </div>
+          <div class="searchResults">
+            <div class="searchResultsContainer">
+              <ul id="searchUL"></ul>
+              <span id="noResults" style="font-style: italic; display:none;"> No matches found.</span>
+            </div>
+          </div>
+        </div>
+        <div id="credits"><i>Radical Accounting: Alvin Ailey American Dance Theater’s Data as a Framework for Historical Imagination</i> (2022-2025) is by Kate Elswit and Harmony Bench (Moving Data), with Antonio Jiménez-Mavillard and Tia-Monique Uzor. It was commissioned for the Edges of Ailey exhibition at the Whitney Museum of American Art (2024-25) with additional support from: the UK Arts and Humanities Research Council (AHRC, ref: AH/W005034/1); the Royal Central School of Speech and Drama; and The Ohio State University. With special thanks to Adrienne Edwards, Engell Speyer Family Senior Curator and Associate Director of Curatorial Programs at the Whitney Museum of American Art. Personnel data comes from AAADT records, thanks to Ailey Foundation archivist Dominique Singer. Demo voiced by Amos Machanic.</div>
+      </div>
+    </div>
+    <div id="welcome">
+      <img id="fake-cursor" src="icon/cursor2.png">
+      <div id="custom-tooltip"></div>
+      <div id="instruction-list">
+      </div>
+      <div id="bands">
+        <div id="top-band" class="band"></div>
+        <div id="bottom-band" class="band"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

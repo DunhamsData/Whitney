@@ -1,0 +1,499 @@
+Latitude,Longitude,City,Altitude
+16.795,96.16,"Rangoon, Burma",1514
+21.983056,96.084444,"Mandalay, Burma",1517
+10.775556,106.701944,"Saigon, South Vietnam",1526
+3.147778,101.695278,"Kuala Lumpur, Malaysia",1531
+4.597222,101.075,"Ipoh, Malaysia",1533
+5.4025,100.365,"George Town, Penang, Malaysia",1536
+2.722222,101.941667,"Seremban, Malaysia",1538
+-6.175,106.8275,"Jakarta, Indonesia",1544
+14.5958,120.9772,"Manila, Philippines",1548
+10.676458,122.950917,"Bacolod City, Philippines",1550
+10.293,123.902,"Cebu City, Philippines",1552
+7.22,124.25,"Cotabato City, Philippines",1554
+22.615,120.2975,"Kaohsiung, Taiwan",1566
+35.516667,139.7,"Kawasaki, Kanagawa, Japan",1574
+33.033333,130.45,"Ōmuta, Japan",1582
+32.583333,131.666667,"Nobeoka, Japan",1584
+34.05,131.8,"Tokuyama, Yamaguchi, Japan",1586
+37.566667,126.966667,"Seoul, South Korea",1591
+41.748056,-74.085,"New Paltz, NY, USA",2031
+42.304167,-73.248611,"Lee, MA, USA",2047
+44.695278,-73.458333,"Plattsburgh, NY, USA",2096
+42.600556,-76.181389,"Cortland, NY, USA",2100
+32.298889,-90.184722,"Jackson, MS, USA",2136
+40.704722,-73.617222,"Hempstead, NY, USA",2150
+41.15,-81.36,"Kent, OH, USA",2227
+41.114444,-74.047778,"Spring Valley, NY, USA",2243
+44.670833,-74.984167,"Potsdam, NY, USA",2260
+45.62,-1.03,"Royan, France",2659
+49.453889,11.0775,"Nuremberg, Germany",2680
+53.083333,8.8,"Bremen, Germany",2684
+48.797222,9.176944,"Stuttgart-North, Germany",2686
+45.55,11.55,"Vicenza, Veneto, Italy",2715
+45.079167,7.676111,"Turin, Italy",2718
+44.411111,8.932778,"Genoa, Italy",2720
+43.783333,11.25,"Florence, Italy",2727
+53.565278,10.001389,"Hamburg, Germany",2985
+51.481944,7.215833,"Bochum, Germany",2988
+51.233333,6.783333,"Dusseldorf, Germany",2991
+50.0825,8.24,"Wiesbaden, Germany",2993
+39.75,-8.8,"Leiria, Portugal",3431
+38.725267,-9.150019,"Lisbon, Portugal",3432
+38.566667,-7.9,"Évora, Portugal",3433
+38.033333,-7.883333,"Beja, Portugal",3434
+37.016111,-7.935,"Faro, Portugal",3435
+52.366667,9.716667,"Hannover, Germany",3438
+48.783333,9.183333,"Stuttgart, Germany",3439
+49.487778,8.466111,"Mannheim, Germany",3440
+51.9625,7.625556,"Münster, Germany",3441
+52.16,4.49,"Leiden, Netherlands",3466
+51.8475,5.8625,"Nijmegen, Netherlands",3467
+51.916667,4.5,"Rotterdam, Netherlands",3473
+51.5,3.616667,"Middelburg, Netherlands",3474
+44.817778,20.456944,"Belgrade, Socialist Federal Republic of Yugoslavia",3478
+45.2,19.933333,"Karlovci, Socialist Federal Republic of Yugoslavia",3479
+45.333333,14.3,"Opatija, Socialist Federal Republic of Yugoslavia",3480
+44.870278,13.845556,"Pula, Socialist Federal Republic of Yugoslavia",3482
+44.7725,17.1925,"Banjaluka, Socialist Federal Republic of Yugoslavia",3485
+43.856389,18.413056,"Sarajevo, Socialist Federal Republic of Yugoslavia",3486
+43.32102,21.89567,"Niš, Socialist Federal Republic of Yugoslavia",3487
+41.996111,21.431667,"Skopje, Socialist Federal Republic of Yugoslavia",3489
+40.626111,14.376111,"Sorrento, Italy",3496
+43.483333,13.483333,"Osimo, Italy",3497
+32.199789,34.926039,"Beit Berl, Israel",3513
+32.965833,35.498333,"Ṣafad, Israel",3515
+32.595833,35.101111,"Ein Hashofet, Israel",3516
+45.4375,12.335833,"Venice, Italy",3541
+9.03,38.74,"Addis Ababa, Ethiopia",3544
+-18.933333,47.516667,"Antananarivo, Malagasy Republic",3551
+0.313611,32.581111,"Kampala, Uganda",3556
+-4.05,39.666667,"Mombasa, Kenya",3562
+-1.286389,36.817222,"Nairobi, Kenya",3565
+-6.816111,39.280278,"Dar es Salaam, Tanzania",3570
+-4.325,15.322222,"Kinshasa, Democratic Republic of Congo",3577
+5.55,-0.2,"Accra, Ghana",3582
+6.666667,-1.616667,"Kumasi, Ghana",3584
+5.316667,-4.033333,"Abidjan, Côte d'Ivoire",3589
+14.692778,-17.446667,"Dakar, Senegal",3592
+42.418056,-73.576389,"Chatham, NY, USA",3665
+43.413889,-71.985278,"New London, NH, USA",3666
+42.125,-72.75,"Westfield, MA, USA",3667
+41.31,-72.923611,"New Haven, CT, USA",3669
+41.069167,-73.859722,"Tarrytown, NY, USA",3675
+42.795833,-77.813611,"Geneseo, NY, USA",3681
+43.214167,-77.939444,"Brockport, NY, USA",3686
+40.495278,-78.013056,"Huntingdon, PA, USA",3689
+39.329167,-82.096111,"Athens, OH, USA",3691
+41.217222,-86.421667,"Culver, IN, USA",3695
+38.7775,-95.1875,"Baldwin City, KS, USA",3697
+34.416667,-119.7,"Santa Barbara, CA, USA",3706
+33.669444,-117.823056,"Irvine, CA, USA",3707
+36.971944,-122.026389,"Santa Cruz, CA, USA",3711
+38.553889,-121.738056,"Davis, CA, USA",3712
+34.11,-117.719722,"Claremont, CA, USA",3716
+32.798333,-116.96,"El Cajon, CA, USA",3718
+43.813333,-91.233056,"La Crosse, WI, USA",3726
+39.469722,-87.389722,"Terre Haute, IN, USA",3733
+39.715833,-83.88,"Wilberforce, OH, USA",3734
+43.018889,-83.693333,"Flint, MI, USA",3736
+39.958611,-75.605,"West Chester, PA, USA",3739
+40.519722,-75.775278,"Kutztown, PA, USA",3740
+38.365833,-75.593333,"Salisbury, MD, USA",3745
+40.885278,-72.395278,"Southampton, NY, USA",3749
+51.433333,5.483333,"Eindhoven, Netherlands",3829
+52.083333,5.116667,"Utrecht, Netherlands",3832
+52.516667,6.1,"Zwolle, Netherlands",3834
+53.218889,6.5675,"Groningen, Netherlands",3835
+51.983333,5.916667,"Arnhem, Netherlands",3837
+46.051389,14.506111,"Ljubljana, Socialist Federal Republic of Yugoslavia",3870
+42.435278,11.1175,"Porto Santo Stefano, Italy",3876
+43.551944,10.308333,"Livorno, Italy",3881
+55.953333,-3.189167,"Edinburgh, Scotland",3895
+42.271389,-71.798889,"Worcester, MA, USA",4050
+43.702222,-72.289444,"Hanover, NH, USA",4051
+42.120833,-77.945833,"Wellsville, NY, USA",4053
+40.123611,-82.921389,"Westerville, OH, USA",4055
+41.007222,-91.965833,"Fairfield, IA, USA",4060
+42.5,-90.69,"Dubuque, IA, USA",4061
+41.341111,-89.090833,"LaSalle, IL, USA",4062
+42.038333,-88.322778,"Elgin, IL, USA",4064
+37.977222,-87.550556,"Evansville, IN, USA",4066
+40.870833,-73.046944,"Selden, NY, USA",4069
+40.653889,-73.586944,"Freeport, NY, USA",4071
+42.829167,-75.552778,"Hamilton, NY, USA",4073
+40.006111,-76.351389,"Millersville, PA, USA",4075
+40.626111,-75.375556,"Bethlehem, PA, USA",4077
+38.996667,-76.9275,"College Park, MD, USA",4082
+37.21295,-77.400417,"Petersburg, VA, USA",4083
+40.51,-78.4,"Altoona, PA, USA",4084
+40.165556,-80.594722,"West Liberty, WV, USA",4086
+39.431944,-77.806111,"Shepherdstown, WV, USA",4087
+38.921389,-79.850833,"Elkins, WV, USA",4088
+37.262222,-81.218611,"Bluefield, WV, USA",4089
+38.18,-81.326667,"Montgomery, WV, USA",4090
+38.383611,-81.765278,"Institute, WV, USA",4091
+40.941389,-73.864444,"Yonkers, NY, USA",4100
+42.998611,-78.184167,"Batavia, NY, USA",4102
+42.680278,-74.4175,"Cobleskill, NY, USA",4103
+42.455833,-75.062222,"Oneonta, NY, USA",4105
+42.095556,-79.238611,"Jamestown, NY, USA",4107
+40.615444,-74.415775,"Plainfield, NJ, USA",4124
+42.695833,-72.453333,"Northfield, MA, USA",4126
+39.3625,-74.425,"Atlantic City, NJ, USA",4149
+42.373611,-71.110556,"Cambridge, MA, USA",4162
+40.713611,-73.555833,"East Meadow, NY, USA",4261
+40.908611,-73.781944,"New Rochelle, NY, USA",4297
+39.828333,-77.232222,"Gettysburg, PA, USA",4298
+38.449444,-78.868889,"Harrisonburg, VA, USA",4299
+40.039722,-76.304444,"Lancaster, PA, USA",4301
+43.597778,-84.7675,"Mount Pleasant, MI, USA",4303
+40.193333,-85.388056,"Muncie, IN, USA",4304
+41.931389,-88.750278,"DeKalb, IL, USA",4305
+44.523056,-89.560278,"Stevens Point, WI, USA",4306
+44.816667,-91.5,"Eau Claire, WI, USA",4307
+44.944167,-93.093611,"St. Paul, MN, USA",4308
+44.166667,-94.0,"Mankato, MN, USA",4310
+45.669722,-118.791389,"Pendleton, OR, USA",4312
+46.601944,-120.507778,"Yakima, WA, USA",4313
+47.979167,-122.201667,"Everett, WA, USA",4315
+45.486944,-122.803611,"Beaverton, OR, USA",4317
+40.583333,-122.366667,"Redding, CA, USA",4319
+37.66882,-122.080796,"Hayward, CA, USA",4323
+39.527222,-119.821944,"Reno, NV, USA",4324
+38.448611,-122.704722,"Santa Rosa, CA, USA",4325
+35.650833,-117.661667,"China Lake, CA, USA",4327
+33.948056,-117.396111,"Riverside, CA, USA",4331
+33.768333,-118.195556,"Long Beach, CA, USA",4332
+33.830278,-116.545278,"Palm Springs, CA, USA",4333
+18.399722,-66.05,"Río Piedras, Puerto Rico",4355
+17.75,-64.75,"Christiansted, St. Croix, U.S. Virgin Islands",4356
+18.333333,-64.916667,"St. Thomas, U.S. Virgin Islands",4357
+42.258333,-72.575,"South Hadley, MA, USA",4418
+37.297778,-78.395833,"Farmville, VA, USA",4421
+38.0299,-78.479,"Charlottesville, VA, USA",4422
+37.555556,-79.080556,"Sweet Briar, VA, USA",4424
+35.913139,-79.055806,"Chapel Hill, NC, USA",4428
+35.668333,-80.478611,"Salisbury, NC, USA",4430
+32.445278,-81.779167,"Statesboro, GA, USA",4432
+27.9475,-82.458611,"Tampa, FL, USA",4434
+41.080556,-85.139167,"Fort Wayne, IN, USA",4443
+40.298889,-83.071944,"Delaware, OH, USA",4449
+42.139444,-83.178333,"Trenton, MI, USA",4450
+42.242778,-83.618333,"Ypsilanti, MI, USA",4453
+41.063611,-80.055,"Slippery Rock, PA, USA",4454
+41.244444,-77.018611,"Williamsport, PA, USA",4455
+40.695266,-74.269078,"Union, NJ, USA",4457
+41.225833,-73.665,"Bedford, NY, USA",4459
+40.348722,-74.066528,"Red Bank, NJ, USA",4460
+40.761667,-73.329167,"Deer Park, NY, USA",4461
+41.123333,-73.346944,"Westport, CT, USA",4477
+33.533333,-7.583333,"Casablanca, Morocco",4567
+33.895,-5.554722,"Meknès, Morocco",4571
+32.283333,-9.233333,"Safi, Morocco",4573
+36.653889,3.058889,"Algiers, Algeria",4581
+35.696944,-0.633056,"Oran, Algeria",4583
+36.4,10.616667,"Hammamet, Tunisia",4590
+36.85,10.316667,"Carthage, Tunisia",4591
+34.74,10.76,"Sfax, Tunisia",4593
+47.85,35.1175,"Zaporozhye, Russia, U.S.S.R.",4653
+48.002778,37.805278,"Donetsk, Ukraine, U.S.S.R.",4660
+50.45,30.523333,"Kiev, Ukraine, U.S.S.R.",4667
+48.566667,39.333333,"Voroshilovgrad, Ukraine, U.S.S.R.",4674
+55.755833,37.617222,"Moscow, Russia, U.S.S.R.",4681
+59.9375,30.308611,"Leningrad, Russia, U.S.S.R.",4687
+40.616667,-79.15,"Indiana, PA, USA",4786
+41.120833,-80.332778,"New Wilmington, PA, USA",4787
+39.830278,-84.890556,"Richmond, IN, USA",4791
+40.194722,-92.583333,"Kirksville, MO, USA",4796
+39.240833,-94.426389,"Liberty, MO, USA",4797
+45.55,-94.166667,"St. Cloud, MN, USA",4799
+44.458333,-93.161111,"Northfield, MN, USA",4801
+42.52352,-92.446402,"Cedar Falls, IA, USA",4804
+41.743611,-92.724722,"Grinnell, IA, USA",4805
+42.1825,-87.806944,"Highland Park, IL, USA",4807
+41.731667,-73.4525,"Kent, CT, USA",4814
+41.483333,-71.533333,"Kingston, RI, USA",4816
+41.823611,-71.422222,"Providence, RI, USA",4819
+42.296389,-71.293056,"Wellesley, MA, USA",4821
+41.45,-74.416667,"Middletown, NY, USA",4825
+41.186389,-73.195556,"Bridgeport, CT, USA",4840
+40.692778,-73.990278,"Brooklyn, NY, USA",4846
+40.374964,-74.173849,"Holmdel, NJ, USA",4924
+37.323056,-122.031944,"Cupertino, CA, USA",4942
+32.293,-64.782,"Hamilton, Bermuda",4966
+40.981591,-74.113506,"Ridgewood, NJ, USA",5021
+41.330278,-73.829722,"Shrub Oak, NY, USA",5022
+37.034946,-76.360126,"Hampton, VA, USA",5032
+36.102764,-80.260492,"Winston-Salem, NC, USA",5033
+43.845,-88.839722,"Ripon, WI, USA",5040
+26.216389,-98.236389,"McAllen, TX, USA",5054
+29.281111,-94.825833,"Galveston, TX, USA",5057
+42.244167,-84.407222,"Jackson, MI, USA",5127
+46.873889,-96.767222,"Moorhead, MN, USA",5147
+49.884444,-97.146389,"Winnipeg, Manitoba, Canada",5156
+39.683611,-75.749722,"Newark, DE, USA",5166
+40.758044,-74.417807,"Madison, NJ, USA",5173
+43.910833,-69.963056,"Brunswick, ME, USA",5181
+43.66,-70.255,"Portland, ME, USA",5183
+40.802778,-73.731389,"Great Neck, NY, USA",5239
+43.085,-75.653333,"Oneida, NY, USA",5390
+39.393056,-76.609444,"Towson, MD, USA",5393
+40.945855,-74.245077,"Wayne, NJ, USA",5410
+42.711944,-73.204167,"Williamstown, MA, USA",5414
+38.2,-84.866667,"Frankfort, KY, USA",5501
+40.417222,-86.878611,"Lafayette, IN, USA",5505
+40.460503,-90.674047,"Macomb, IL, USA",5509
+42.972222,-85.953611,"Allendale, MI, USA",5515
+43.116111,-78.989444,"Niagara, NY, USA",5573
+42.440833,-79.333889,"Fredonia, NY, USA",5577
+35.689167,51.388889,"Tehran, Iran",5668
+34.006336,36.207322,"Baalbek, Lebanon",5674
+37.429167,-122.138056,"Palo Alto, CA, USA",5771
+47.241389,-122.459444,"Tacoma, WA, USA",5773
+40.559167,-105.078056,"Fort Collins, CO, USA",5783
+40.223841,-74.763624,"Trenton, NJ, USA",5926
+41.038889,-73.613611,"Greenwich, CT, USA",5936
+45.759722,21.23,"Timișoara, Socialist Republic of Romania",6029
+45.816667,15.983333,"Zagreb, Socialist Federal Republic of Yugoslavia",6032
+43.51,16.44,"Split, Socialist Federal Republic of Yugoslavia",6034
+42.640278,18.108333,"Dubrovnik, Socialist Federal Republic of Yugoslavia",6036
+40.889398,-74.045698,"Hackensack, NJ, USA",6114
+40.486678,-74.444414,"New Brunswick, NJ, USA",6117
+40.426249,-74.418244,"East Brunswick, NJ, USA",6118
+44.001944,-73.145556,"Middlebury, VT, USA",6123
+44.643889,-72.681111,"Johnson, VT, USA",6124
+43.63,-72.98,"Rutland, VT, USA",6126
+39.700096,-75.111423,"Glassboro, NJ, USA",6132
+42.29,-85.585833,"Kalamazoo, MI, USA",6138
+41.073056,-81.517778,"Akron, OH, USA",6161
+41.519722,-74.021389,"Newburgh, NY, USA",6230
+40.824998,-74.210856,"Montclair, NJ, USA",6233
+35.227222,-80.843056,"Charlotte, NC, USA",6255
+33.5175,-86.809444,"Birmingham, AL, USA",6265
+30.4475,-91.178611,"Baton Rouge, LA, USA",6272
+32.5275,-92.713889,"Grambling, LA, USA",6280
+32.529722,-92.640556,"Ruston, LA, USA",6281
+40.956944,-72.198889,"East Hampton, NY, USA",6451
+35.110833,-106.61,"Albuquerque, NM, USA",6484
+35.468611,-97.521389,"Oklahoma City, OK, USA",6496
+36.116,-97.059,"Stillwater, OK, USA",6499
+37.688889,-97.336111,"Wichita, KS, USA",6503
+39.106667,-94.676389,"Kansas City, KS, USA",6506
+39.183608,-96.571669,"Manhattan, KS, USA",6513
+39.1,-84.5125,"Cincinnati, OH, USA",6586
+40.512222,-88.988611,"Normal, IL, USA",6611
+42.961111,-85.655556,"Grand Rapids, MI, USA",6615
+39.466667,-0.375,"Valencia, Spain",6839
+41.65,-0.883333,"Zaragoza, Spain",6843
+42.6525,-73.757222,"Albany, NY, USA",7084
+25.066667,121.516667,"Taipei, Taiwan",7122
+14.55,121.0,"Pasay, Philippines",7128
+13.7525,100.494167,"Bangkok, Thailand",7131
+28.613895,77.209006,"New Delhi, India",7134
+41.013611,28.955,"Istanbul, Turkey",7137
+29.987,31.2118,"Giza, Egypt",7142
+43.95,4.8075,"Avignon, France",7157
+39.768611,-86.158056,"Indianapolis, IN, USA",7224
+27.773056,-82.64,"St. Petersburg, FL, USA",7231
+-12.043333,-77.028333,"Lima, Peru",7462
+-34.883611,-56.181944,"Montevideo, Uruguay",7469
+-25.429722,-49.271111,"Curitiba, Brazil",7472
+-23.55,-46.633333,"São Paulo, Brazil",7487
+40.155,-75.220278,"Ambler, PA, USA",7546
+40.726944,-73.649722,"Garden City, NY, USA",7625
+40.659444,-73.553611,"Merrick, NY, USA",7626
+33.920882,-6.74165,"Rabat, Morocco",7669
+32.783333,-79.931944,"Charleston, SC, USA",7828
+39.203611,-76.856944,"Columbia, MD, USA",7839
+43.6767,4.6278,"Arles, France",7889
+47.4925,19.051389,"Budapest, Hungary",7900
+60.170833,24.9375,"Helsinki, Finland",7906
+51.053611,3.725278,"Ghent, Belgium",7909
+50.0875,14.421389,"Prague, Czechoslovak Socialist Republic",7925
+48.143889,17.109722,"Bratislava, Czechoslovak Socialist Republic",7928
+49.1925,16.608333,"Brno, Czechoslovak Socialist Republic",7930
+44.4325,26.103889,"Bucharest, Socialist Republic of Romania",7934
+49.814444,6.131667,"Luxembourg, Luxembourg",7952
+52.23,21.011111,"Warsaw, Poland",7956
+39.76185,-104.881105,"Denver, CO, USA",8096
+37.4225,-122.165278,"Stanford, CA, USA",8104
+37.333333,-121.9,"San Jose, CA, USA",8106
+43.083056,-73.784444,"Saratoga Springs, NY, USA",8275
+39.162222,-86.529167,"Bloomington, IN, USA",8287
+43.165556,-77.611389,"Rochester, NY, USA",8292
+42.281389,-83.748333,"Ann Arbor, MI, USA",8470
+36.162222,-86.774444,"Nashville, TN, USA",8484
+19.433333,-99.133333,"Mexico City, Mexico",8557
+4.711111,-74.072222,"Bogotá, Colombia",8565
+-33.45,-70.666667,"Santiago, Chile",8570
+-34.603333,-58.381667,"Buenos Aires, Argentina",8579
+-22.908333,-43.196389,"Rio de Janeiro, Brazil",8586
+42.063056,-88.119167,"Hoffman Estates, IL, USA",8645
+29.425,-98.493889,"San Antonio, TX, USA",8649
+45.52,-122.681944,"Portland, OR, USA",8666
+40.109665,-88.204247,"Urbana, IL, USA",8835
+39.745833,-75.546667,"Wilmington, DE, USA",8838
+40.278333,-76.651111,"Hershey, PA, USA",8858
+38.111111,13.351667,"Palermo, Italy",8964
+44.383333,9.033333,"Nervi, Italy",8970
+30.455,-84.253333,"Tallahassee, FL, USA",9212
+34.000556,-81.034722,"Columbia, SC, USA",9222
+44.7,10.633333,"Reggio Emilia, Italy",9331
+44.646944,10.925556,"Modena, Italy",9332
+45.76,4.84,"Lyon, France",9333
+43.21,2.35,"Carcassonne, France",9334
+44.0558,5.0489,"Carpentras, France",9335
+35.340278,25.134444,"Heraklion, Greece",9349
+25.775278,-80.208889,"Miami, FL, USA",9447
+34.156111,-118.131944,"Pasadena, CA, USA",9544
+41.258611,-95.9375,"Omaha, NE, USA",9565
+34.69,135.195556,"Kobe, Japan",9669
+35.011667,135.768333,"Kyoto, Japan",9675
+41.040556,-73.714444,"Purchase, NY, USA",9713
+43.166667,-78.966667,"Lewiston, NY, USA",9720
+57.7075,11.9675,"Gothenburg, Sweden",9802
+59.329444,18.068611,"Stockholm, Sweden",9814
+55.395833,10.388611,"Odense, Denmark",9820
+56.1572,10.2107,"Aarhus, Denmark",9824
+26.709722,-80.064167,"West Palm Beach, FL, USA",9881
+38.952,-92.329,"Columbia, MO, USA",9884
+40.813056,-73.625556,"Greenvale, NY, USA",9891
+45.424722,-75.695,"Ottawa, Ontario, Canada",9905
+30.267222,-97.743056,"Austin, TX, USA",9919
+33.412778,-111.943056,"Tempe, AZ, USA",9925
+38.256111,-85.751389,"Louisville, KY, USA",9929
+42.034722,-93.62,"Ames, IA, USA",9950
+38.9,-77.266667,"Vienna, VA, USA",10087
+-33.865,151.209444,"Sydney, Australia",10104
+-37.813611,144.963056,"Melbourne, Australia",10118
+-27.467778,153.028056,"Brisbane, Australia",10132
+-31.9559,115.8606,"Perth, Australia",10146
+-34.9275,138.6,"Adelaide, Australia",10160
+39.906667,116.3975,"Beijing, China",10168
+28.683,115.858,"Nanchang, China",10172
+31.228611,121.474722,"Shanghai, China",10175
+40.808889,-96.678889,"Lincoln, NE, USA",10269
+38.971669,-95.23525,"Lawrence, KS, USA",10276
+36.131389,-95.937222,"Tulsa, OK, USA",10279
+37.540833,-77.436667,"Richmond, VA, USA",10290
+26.081389,-80.280278,"Davie, FL, USA",10306
+42.734722,-84.480556,"East Lansing, MI, USA",10332
+32.75,-97.333333,"Fort Worth, TX, USA",10339
+43.074722,-89.384167,"Madison, WI, USA",10343
+21.3,-157.816667,"Honolulu, HI, USA",10390
+35.689722,139.692222,"Tokyo, Japan",10399
+35.183333,136.9,"Nagoya, Japan",10401
+33.583333,130.4,"Fukuoka, Japan",10402
+34.391389,132.451944,"Hiroshima, Japan",10403
+34.693889,135.502222,"Osaka, Japan",10405
+35.444167,139.638056,"Yokohama, Japan",10406
+36.365833,140.47125,"Mito, Japan",10407
+35.787639,139.903167,"Matsudo, Japan",10408
+35.095583,138.863444,"Numazu, Japan",10409
+22.3,114.2,Hong Kong,10412
+37.983972,23.727806,"Athens, Greece",10468
+59.913333,10.738889,"Oslo, Norway",10483
+43.6045,1.444,"Toulouse, France",10518
+45.7831,3.0824,"Clermont-Ferrand, France",10519
+50.6278,3.0583,"Lille, France",10521
+44.84,-0.58,"Bordeaux, France",10524
+41.482222,-81.669722,"Cleveland, OH, USA",10637
+42.904722,-78.849444,"Buffalo, NY, USA",10640
+41.66,-91.53,"Iowa City, IA, USA",10668
+40.760833,-111.891111,"Salt Lake City, UT, USA",10671
+49.25,-123.1,"Vancouver, British Columbia, Canada",10689
+42.383333,-72.516667,"Amherst, MA, USA",10710
+41.052778,-73.538889,"Stamford, CT, USA",10723
+45.508889,-73.554167,"Montreal, Quebec, Canada",10726
+32.779167,-96.808889,"Dallas, TX, USA",10740
+42.102222,-75.911667,"Binghamton, NY, USA",10822
+31.778889,35.225556,"Jerusalem, Israel",10848
+32.08,34.78,"Tel Aviv, Israel",10851
+32.502778,34.905556,"Caesarea, Israel",10854
+50.85,4.35,"Brussels, Belgium",10858
+45.466667,9.183333,"Milan, Italy",10864
+46.948056,7.4475,"Bern, Switzerland",10867
+47.374444,8.541111,"Zürich, Switzerland",10869
+46.2,6.15,"Geneva, Switzerland",10872
+46.519833,6.6335,"Lausanne, Switzerland",10874
+40.416667,-3.7025,"Madrid, Spain",10882
+51.2,6.7,"Neuss, West Germany",10885
+50.936389,6.952778,"Cologne, Germany",10887
+49.481111,8.435278,"Ludwigshafen, West Germany",10890
+51.033333,6.983333,"Leverkusen, West Germany",10893
+48.2,16.366667,"Vienna, Austria",10895
+47.070833,15.438611,"Graz, Austria",10896
+52.52,13.405,"Berlin, Germany",10903
+42.814167,-73.937222,"Schenectady, NY, USA",10985
+41.395,-73.955,"West Point, NY, USA",10986
+35.988611,-78.907222,"Durham, NC, USA",10989
+36.08,-79.819444,"Greensboro, NC, USA",10993
+27.337222,-82.535278,"Sarasota, FL, USA",10996
+35.595833,-82.552778,"Asheville, NC, USA",11010
+36.211389,-81.668611,"Boone, NC, USA",11012
+35.78,-78.64,"Raleigh, NC, USA",11014
+25.813025,-80.134064,"Miami Beach, FL, USA",11022
+36.846944,-76.285278,"Norfolk, VA, USA",11025
+41.7625,-72.674167,"Hartford, CT, USA",11028
+34.736111,-92.331111,"Little Rock, AR, USA",11030
+29.762778,-95.383056,"Houston, TX, USA",11034
+29.95,-90.08,"New Orleans, LA, USA",11036
+44.475833,-73.211944,"Burlington, VT, USA",11053
+40.963889,-76.888056,"Lewisburg, PA, USA",11055
+40.806667,-77.880278,"University Park, PA, USA",11057
+39.962222,-83.000556,"Columbus, OH, USA",11073
+39.289444,-76.615278,"Baltimore, MD, USA",11077
+43.741667,-79.373333,"Toronto, Ontario, Canada",11098
+51.507222,-0.1275,"London, England",11119
+33.748889,-84.39,"Atlanta, GA, USA",11171
+42.4875,-1.6625,"Olite, Spain",11196
+43.462778,-3.805,"Santander, Spain",11200
+37.852222,15.291944,"Taormina, Italy",11204
+38.466667,14.95,"Lipari, Italy",11207
+37.5,15.090278,"Catania, Italy",11208
+37.490278,14.0625,"Caltanissetta, Italy",11209
+38.0175,12.515,"Trapani, Italy",11210
+47.554722,7.590556,"Basel, Switzerland",11215
+47.65,9.483333,"Friedrichshafen, West Germany",11217
+52.08,4.31,"Den Haag, Netherlands",11220
+51.217778,4.400278,"Antwerp, Belgium",11222
+52.366667,4.9,"Amsterdam, Netherlands",11225
+39.099722,-94.578333,"Kansas City, MO, USA",11266
+38.904722,-77.016389,"Washington, D.C., USA",11295
+27.973611,-82.764167,"Clearwater, FL, USA",11329
+42.331389,-83.045833,"Detroit, MI, USA",11358
+47.609722,-122.333056,"Seattle, WA, USA",11365
+38.581667,-121.494444,"Sacramento, CA, USA",11368
+61.216667,-149.893611,"Anchorage, AK, USA",11372
+37.871667,-122.272778,"Berkeley, CA, USA",11379
+32.715,-117.1625,"San Diego, CA, USA",11386
+33.722222,-116.374444,"Palm Desert, CA, USA",11389
+32.221667,-110.926389,"Tucson, AZ, USA",11392
+34.05,-118.25,"Los Angeles, CA, USA",11400
+43.05,-87.95,"Milwaukee, WI, USA",11416
+38.627222,-90.197778,"St. Louis, MO, USA",11420
+42.360278,-71.057778,"Boston, MA, USA",11428
+41.9483,-87.6574,"Chicago, IL, USA",11435
+44.981944,-93.269167,"Minneapolis, MN, USA",11438
+40.439722,-79.976389,"Pittsburgh, PA, USA",11441
+43.046944,-76.144444,"Syracuse, NY, USA",11444
+41.355556,-72.099444,"New London, CT, USA",11446
+41.808333,-72.249444,"Storrs, CT, USA",11447
+42.093889,-76.809722,"Elmira, NY, USA",11451
+43.094722,-75.275833,"Utica, NY, USA",11452
+44.6475,-63.590556,"Halifax, Nova Scotia, Canada",11455
+40.358244,-74.666728,"Princeton, NJ, USA",11459
+40.72,-74.17,"Newark, NJ, USA",11462
+39.952778,-75.163611,"Philadelphia, PA, USA",11470
+45.433333,10.983333,"Verona, Italy",11518
+48.8567,2.3508,"Paris, France",11525
+43.148056,5.876389,"Châteauvallon, France",11530
+43.5513,7.0128,"Cannes, France",11533
+41.9,12.5,"Rome, Italy",11617
+41.125278,16.866667,"Bari, Italy",11622
+48.8975,9.192222,"Ludwigsburg, Germany",11629
+50.116667,8.683333,"Frankfurt, Germany",11631
+48.133333,11.566667,"Munich, Germany",11638
+55.676111,12.568333,"Copenhagen, Denmark",11645
+40.7127,-74.0059,"New York City, NY, USA",11687

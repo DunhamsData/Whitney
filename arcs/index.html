@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repertory as Living Dance Museum</title>
+<!--  <meta http-equiv="content-type" content="text/html" charset="utf-8" />-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="dist/d3.v7.min.js"></script>
+<!--  <script src="https://d3js.org/d3.v7.min.js"></script>-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="arcs.css" />
+  <link rel="stylesheet" href="demotimer.css" />
+  <link rel="stylesheet" href="search.css" />
+  <link rel="stylesheet" href="dropdownmenu.css" />
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+</head>
+<body class="layoutable">
+  <div id="intro"></div>
+  <div id="main-content">
+    <div id="play-pause-container" class="intro">
+      <div id="play-pause-icon"></div>
+      <svg id="timer-svg" viewBox="0 0 100 100">
+<!--        <circle class="bg"></circle>-->
+<!--        <circle class="fg"></circle>-->
+        <circle class="bg" cx="50" cy="50" r="45"></circle>
+        <circle class="fg" cx="50" cy="50" r="45"></circle>
+      </svg>
+    </div>
+    <div id="interface" class="intro">
+      <div id="interface-content" class="leftable">
+        <div id="info" class="layoutable leftable">
+          <div id="box0" class="main-col draggable layoutable leftable scrollable text-box resizable-text smooth">This interactive visualization allows users to explore data from “Repertory as Living Dance Museum: The Alvin Ailey American Dance Theater’s Performance History, <span id="date-range">1958-89</span>,” which is part of the <a href="https://www.movingdatastudio.com/#current" target="_blank"><i>Radical Accounting</i></a> series commissioned for the Edges of Ailey exhibition at the Whitney Museum of American Art (2024-25). We see Ailey’s vision of repertory as a living museum emerge from the interconnections among every piece, every performance, and every program.</div>
+          <div id="box12" class="main-col draggable layoutable leftable scrollable">
+            <div id="box1" class="draggable layoutable leftable text-box resizable-text smooth"></div>
+            <div id="box2" class="draggable layoutable leftable text-box resizable-text smooth"></div>
+          </div>
+          <div id="box3" class="main-col draggable layoutable leftable"></div>
+        </div>
+        <div id="legend" class="draggable leftable">
+          <div id="legend-row-1" class="legend-row">
+            <div id="legend-color-1" class="legend-color"></div>
+            <div id="legend-text-1" class="legend-text resizable-text smooth">Ailey</div>
+          </div>
+          <div id="legend-row-2" class="legend-row">
+            <div id="legend-color-2" class="legend-color"></div>
+            <div id="legend-text-2" class="legend-text resizable-text smooth">Non-Ailey</div>
+          </div>
+        </div>
+        <div id="myviz"></div>
+      </div>
+      <div id="menu-icon"></div>
+      <div id="side-panel" class="layoutable">
+        <div id="dropdownmenu-sort" class="dropdown">
+          <button class="dropbtn">Sort by</button>
+          <span class="dropdown-selection"> · </span>
+          <span class="dropdown-selection dropdown-selected">First Documented Performance</span>
+          <div class="dropdown-content">
+            <span id="first documented performance" class="selected">First Documented Performance</span>
+            <span id="total number of performances">Total Number of Performances</span>
+            <span id="degree">Degree of Connectedness</span>
+          </div>
+        </div>
+        <div id="video">
+          <iframe id="yt-video" width="240" height="135" src="https://www.youtube.com/embed/3NA_YFCPeSM?autoplay=1&loop=1&playlist=3NA_YFCPeSM&controls=0&showinfo=0" title="YouTube video player" frameborder="0" fs="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <a id="video-link" title="Watch on Whitney's website" href="https://whitney.org/media/61533" target="_blank"></a>
+        </div>
+        <div id="searchBar" class="resizable-text">
+          <div id="searchInputAndCloseButton">
+            <input id="searchInput" type="text" name="search" placeholder="Search by title..." autocomplete="off" class="resizable-text">
+            <a id="searchCloseButton" href=""></a>
+          </div>
+          <div class="searchResults">
+            <div class="searchResultsContainer">
+              <ul id="searchUL"></ul>
+              <span id="noResults" style="font-style: italic; display:none;"> No matches found.</span>
+            </div>
+          </div>
+        </div>
+        <div id="credits" class="resizable-text scrollable"><i>Radical Accounting: Alvin Ailey American Dance Theater’s Data as a Framework for Historical Imagination</i> (2022-2025) is by Kate Elswit and Harmony Bench (Moving Data), with Antonio Jiménez-Mavillard and Tia-Monique Uzor. It was commissioned for the Edges of Ailey exhibition at the Whitney Museum of American Art (2024-25) with additional support from: the UK Arts and Humanities Research Council (AHRC, ref: AH/W005034/1); the Royal Central School of Speech and Drama; and The Ohio State University. With special thanks to Adrienne Edwards, Engell Speyer Family Senior Curator and Associate Director of Curatorial Programs at the Whitney Museum of American Art. Repertory data has been manually curated from archival materials and is publicly available from the National Archive of Data on Arts and Culture. Demo voiced by Amos Machanic.</div>
+      </div>
+    </div>
+    <div id="welcome">
+      <img id="fake-cursor" src="icon/cursor2.png">
+      <div id="custom-tooltip"></div>
+      <div id="bands">
+        <div id="top-band" class="band"></div>
+        <div id="bottom-band" class="band"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+:root {
+  --labelScale: 1;
+  --labelRotation: 0deg;
+  --bright: 1.8;
+  --gray: #e3e3e3;
+  --black: #333;
+  --strokewidth: clamp(0.15px, calc(0.02 * 1dvw), 0.3px);
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  :root {
+    --strokewidth: clamp(0.15px, calc(0.02 * var(--aspectratio) * 1dvh), 0.3px);
+  }
+}
+
+path {
+  stroke-opacity: 1;
+  stroke-width: var(--strokewidth);
+}
+
+.hover path:not(path.primary):not(path.selected-primary):not(path.primary-legend) {
+  stroke: var(--gray);
+}
+
+.hover text:not(g.primary text):not(g.secondary text):not(g.selected-primary text):not(g.selected-secondary text) {
+  fill: var(--gray);
+}
+
+.hover circle:not(g.primary circle):not(g.secondary circle):not(g.selected-primary circle):not(g.selected-secondary circle) {
+  fill: var(--gray);
+}
+
+.hover path.primary {
+/*  stroke: var(--black);*/
+  stroke-width: calc(var(--strokewidth) * 3);
+}
+
+.hover path.primary-legend {
+/*  stroke: var(--black);*/
+  stroke-width: var(--strokewidth);
+}
+
+.hover g.primary text {
+/*  fill: var(--black);*/
+  font-weight: bold;
+  scale: var(--labelScale);
+  rotate: var(--labelRotation);
+}
+
+.hover g.primary circle {
+/*  fill: var(--black);*/
+}
+
+.hover g.secondary text {
+/*  fill: var(--black);*/
+}
+
+.hover g.secondary circle {
+/*  fill: var(--black);*/
+}
+
+.selected path:not(path.primary):not(path.selected-primary) {
+  stroke: var(--gray);
+}
+
+.selected text:not(g.primary text):not(g.secondary text):not(g.selected-primary text):not(g.selected-secondary text) {
+  fill: var(--gray);
+}
+
+.selected circle:not(g.primary circle):not(g.secondary circle):not(g.selected-primary circle):not(g.selected-secondary circle) {
+  fill: var(--gray);
+}
+
+.selected path.selected-primary {
+/*  stroke: var(--black);*/
+  stroke-width: calc(var(--strokewidth) * 3);
+}
+
+.selected g.selected-primary text {
+/*  fill: var(--black);*/
+  font-weight: bold;
+  scale: var(--labelScale);
+  rotate: var(--labelRotation);
+}
+
+.hover g.selected-primary circle {
+/*  fill: var(--black);*/
+}
+
+.selected g.selected-secondary text {
+/*  fill: var(--black);*/
+}
+
+.selected g.selected-secondary circle {
+/*  fill: var(--black);*/
+}
+
+text {
+/*  font-family: "Caslon Doric", sans-serif;*/
+  font-family: "Liberation Sans", sans-serif;
+}

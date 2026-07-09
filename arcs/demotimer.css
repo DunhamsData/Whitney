@@ -1,0 +1,135 @@
+:root {
+  --stroke-ddd: #ddd;
+  --stroke-5394fd: black;
+}
+
+circle.bg, circle.fg {
+  fill: none;
+}
+
+.circular-progress {
+  --size: 100%;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 10%;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+  --circumference: calc(var(--radius) * pi * 2);
+  --dash: calc((var(--progress) * var(--circumference)) / 100);
+  animation: progress-animation 64s linear 0s 1 forwards;
+}
+
+.circular-progress-safari {
+  --size: 100%;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 10%;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+  --circumference: calc(var(--radius) * pi * 2);
+  --dash: calc((var(--progress) * var(--circumference)) / 100);
+/*  animation: progress-animation 64s linear 0s 1 forwards;*/
+}
+
+.circular-progress circle {
+  cx: var(--half-size);
+  cy: var(--half-size);
+  r: var(--radius);
+  stroke-width: var(--stroke-width);
+  fill: none;
+}
+
+.circular-progress-safari circle {
+/*  cx: var(--half-size);*/
+/*  cy: var(--half-size);*/
+/*  r: var(--radius);*/
+  stroke-width: var(--stroke-width);
+  fill: none;
+}
+
+.circular-progress circle.bg {
+  stroke: var(--stroke-ddd);
+}
+
+.circular-progress-safari circle.bg {
+  stroke: var(--stroke-ddd);
+}
+
+.circular-progress circle.fg {
+  transform: rotate(-90deg);
+  transform-origin: var(--half-size) var(--half-size);
+  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+  transition: stroke-dasharray 0.3s linear 0s;
+  stroke: var(--stroke-5394fd);
+}
+
+.circular-progress-safari circle.fg {
+  transform: rotate(-90deg);
+  transform-origin: var(--half-size) var(--half-size);
+/*  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));*/
+  transition: stroke-dasharray 0.3s linear 0s;
+  stroke: var(--stroke-5394fd);
+}
+
+@property --progress {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes progress-animation {
+  from {
+    --progress: 0;
+  }
+  to {
+    --progress: 100;
+  }
+}
+
+#timer-svg {
+  position: absolute;
+}
+
+
+
+/*.circular-progress {*/
+/*  --size: 250px;*/
+/*  --half-size: calc(var(--size) / 2);*/
+/*  --stroke-width: 20px;*/
+/*  --radius: calc((var(--size) - var(--stroke-width)) / 2);*/
+/*  --circumference: calc(var(--radius) * pi * 2);*/
+/*  --dash: calc((var(--progress) * var(--circumference)) / 100);*/
+/*  animation: progress-animation 5s linear 0s 1 forwards;*/
+/*}*/
+
+/*.circular-progress circle {*/
+/*  cx: var(--half-size);*/
+/*  cy: var(--half-size);*/
+/*  r: var(--radius);*/
+/*  stroke-width: var(--stroke-width);*/
+/*  fill: none;*/
+/*  stroke-linecap: round;*/
+/*}*/
+
+/*.circular-progress circle.bg {*/
+/*  stroke: #ddd;*/
+/*}*/
+
+/*.circular-progress circle.fg {*/
+/*  transform: rotate(-90deg);*/
+/*  transform-origin: var(--half-size) var(--half-size);*/
+/*  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));*/
+/*  transition: stroke-dasharray 0.3s linear 0s;*/
+/*  stroke: #5394fd;*/
+/*}*/
+
+/*@property --progress {*/
+/*  syntax: "<number>";*/
+/*  inherits: false;*/
+/*  initial-value: 0;*/
+/*}*/
+
+/*@keyframes progress-animation {*/
+/*  from {*/
+/*    --progress: 0;*/
+/*  }*/
+/*  to {*/
+/*    --progress: 100;*/
+/*  }*/
+/*}*/
